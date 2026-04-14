@@ -8,7 +8,7 @@ Proyecto-final
 
 Objetivo
 
-Tipificación de la variabilidad de los factores de ocupación del vuelo con mayor demanda  en la ruta MED BOG durante el periodo julio 2024 a junio 2025
+Segmentación y tipificación de la variabilidad del factor de ocupación (%LF) de la ruta MDE - BOG durante el periodo julio 2024 a junio 2025
 
 Justificación
 
@@ -22,18 +22,23 @@ Elaboración de código ejecutable en Visual Studio (Jorge)
     Ajustar tipos de datos: ok  
     Hacer función con tabla de frecuencias: ok      
     Tipificar días : en proceso
-        Asignación básica por día de la semana
-        Establecer criterios
-            tipo 0 : primer dia laboral
+        Asignación básica por día de la semana: ok
+        Establecer criterios : ok
+            tipo 0 : primer dia laboral: ok
             tipo 1 : día laboral: ok
-            tipo 2 : último día laboral
+            tipo 2 : último día laboral: ok
             tipo 3 : día no laboral : ok                
-        Ajuste por festivos
-    Tipificar frecuencias del LF% para todo el año sin filtrar
+        Ajuste por festivos : ok
+    Elaborar tabla de frecuencias del LF% para todo el año sin filtrar: ok
+    Agrupar por K media los LF% de todo el año sin filtrar : : ok
+        Obtener centroides por partición binaria: ok
+        Obtener centroides finales de k medias: ok
     Agrupar vuelos por factor de ocupación en orden ascendente
-    Crear los grupos por k medias
-    Filtrar vuelo para objetivo del trabajo: ok
+    Clasificación ABC por partición binaria
+    Filtrar vuelo para objetivo del trabajo (vuelos AAA) : ok (adaptarlo)
     Crear base total de comportamientos = permutación[tipo_día, mes]
+    Filtrar %LF por AAA y permutación
+    Crear vectores (min, q1,q2,q3,max)
     Tipificar frecuencias de los comportamientos
     Establecer base de comparación entre comportamientos y global
     Escoger los similares
